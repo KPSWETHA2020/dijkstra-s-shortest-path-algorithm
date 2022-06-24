@@ -1,9 +1,11 @@
 # Dijkstra's Shortest Path Algorithm
+
 ## AIM
 
 To develop a code to find the shortest route from the source to the destination point using Dijkstra's shortest path algorithm.
 
 ## THEORY
+
 Best-first search algorithm always selects the path which appears best at that moment. It is the combination of depth-first search and breadth-first search algorithms. Best-first search allows us to take the advantages of both algorithms. With the help of best-first search, at each step, we can choose the most promising node. In the best first search algorithm, we expand the node which is closest to the goal node. The best first search uses the concept of a priority queue. It is a search algorithm that works on a specific rule. The aim is to reach the goal from the initial state via the shortest path. Best First Search is an algorithm for finding the shortest path from a given starting node to a goal node in a graph. The algorithm works by expanding the nodes of the graph in order of increasing the distance from the starting node until the goal node is reached.
 
 ## DESIGN STEPS
@@ -30,6 +32,7 @@ d) If the selected node is not the GOAL node, expand node to generate the ‘imm
 
 
 ## ROUTE MAP
+
 #### Example map
 
 ![map](https://user-images.githubusercontent.com/75235209/167804172-4058a54f-81a5-46da-92c1-6bce64c0036d.PNG)
@@ -243,13 +246,43 @@ print("GoalStateWithPath:{0}".format(goal_state_path))
 path_states(goal_state_path) 
 print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 ```
+
 ## OUTPUT:
+
 
 ![ai1](https://user-images.githubusercontent.com/75235209/167804507-5e826806-a2ca-40c4-bd16-6fa5b83f9586.PNG)
 
 
 # Justification:
+
 The aim is to reach the goal from the initial state via the shortest path.Best First Search is a searching algorithm which works on a set of defined rules. It makes use of the concept of priority queues and heuristic search.This algorithm will traverse the shortest path first in the queue.
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
 ## RESULT:
+</br>
+</br>
 Thus an algorithm to find the route from the source to the destination point using best-first search is developed and executed successfully.
 
